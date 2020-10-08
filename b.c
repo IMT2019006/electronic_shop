@@ -1,9 +1,10 @@
 #include<stdio.h>
+#define ll long long int
 int main()
 {
-    long long int budget,n,m,i,j,t;
+    ll budget,n,m,i,j,t;
     scanf("%lld%lld%lld",&budget,&n,&m);
-    long long int a[n],b[m],c[n*m+1];
+    ll a[n],b[m],c[n*m+1];
     for(i=0;i<n;i++)
     {
         scanf("%lld",&a[i]);
@@ -12,7 +13,7 @@ int main()
     {
         scanf("%lld",&b[i]);
     }
-    long long int k=0;
+    ll k=0;
     for(i=0;i<n;i++)
     {
         for(j=0;j<m;j++)
